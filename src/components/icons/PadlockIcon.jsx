@@ -1,23 +1,28 @@
 import React from "react";
 import styled from "styled-components";
 
-const IconBackGround = styled.div`
-  position: relative;
-  top: 100px;
+const HeaderIcon = styled.div`
+  position: absolute;
   width: 100px;
-  height: 100px;
-  left: 910px;
-  top: 246px;
-  border-radius: 50%;
-  background: #ff7165;
+  top: 0%;
+  margin-top: -50px;
+  left: 50%;
+  margin-left: -50px;
+
+  @media (max-width: 600px) {
+    margin-top: -40px;
+    margin-left: -40px;
+    width: 80px;
+  }
 `;
 
 const PadlockIcon = () => {
   return (
-    <IconBackGround>
+    <HeaderIcon>
       <svg
-        width="100"
-        height="100"
+        className="icon-svg-padlock"
+        width="100%"
+        height="100%"
         viewBox="0 0 100 100"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +35,7 @@ const PadlockIcon = () => {
           fill="white"
         />
       </svg>
-    </IconBackGround>
+    </HeaderIcon>
   );
 };
 

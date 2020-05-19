@@ -1,18 +1,23 @@
 import React from "react";
 import styled from "styled-components";
 
-const IconBackGround = styled.div`
-  position: absolute;
-  width: 48px;
-  height: 48px;
-  left: 1288px;
-  top: 320px;
+const HeaderIcon = styled.div`
+  margin-left: 728px;
+  margin-top: 20px;
   cursor: pointer;
+
+  @media (max-width: 900px) {
+    margin-left: 478px;
+  }
+
+  @media (max-width: 600px) {
+    margin-left: 260px;
+  }
 `;
 
 const ExitIcon = () => {
   return (
-    <IconBackGround>
+    <HeaderIcon>
       <svg
         width="48"
         height="48"
@@ -43,7 +48,7 @@ const ExitIcon = () => {
           stroke-linejoin="round"
         />
       </svg>
-    </IconBackGround>
+    </HeaderIcon>
   );
 };
 
