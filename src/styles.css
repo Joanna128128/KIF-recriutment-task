@@ -1,0 +1,6 @@
+body {
+  height: 100vh;
+  background: rgba(48, 49, 61, 0.8);
+  margin: 0;
+  box-sizing: border-box;
+}
