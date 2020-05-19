@@ -1,0 +1,11 @@
+html {
+  background: #e5e5e5;
+}
+body {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  left: -10px;
+  top: -10px;
+  background: rgba(48, 49, 61, 0.8);
+}
