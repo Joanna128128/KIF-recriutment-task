@@ -36,16 +36,16 @@ const ExitIcon = () => {
         <path
           d="M30 18L18 30"
           stroke="#30313D"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M18 18L30 30"
           stroke="#30313D"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </svg>
     </HeaderIcon>
